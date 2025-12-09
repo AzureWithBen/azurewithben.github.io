@@ -1,0 +1,20 @@
+# config/_default/config.toml
+baseURL = "https://azurewithben.com/"
+title = "Azure With Ben"
+theme = "blowfish"
+# Force le site à se construire même s'il y a des petites erreurs
+ignoreErrors = ["error-remote-getjson"]
+
+# Configuration pour que les liens soient jolis (sans /index.html à la fin)
+[uglyURLs]
+  HTML = false
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    # Le thème de coloration syntaxique (dracula est top pour les devs)
+    style = "dracula"
+    tabWidth = 2

@@ -1,0 +1,21 @@
+# config/_default/params.toml
+# Le schéma de couleur (blowfish, avocado, ocean, etc.)
+colorScheme = "blowfish"
+# Mode sombre par défaut (auto = suit le système de l'utilisateur)
+defaultAppearance = "auto" 
+
+# Affiche le bouton "Copier" sur les blocs de code (INDISPENSABLE pour un blog tech)
+enableCodeCopy = true
+
+[header]
+  # Affiche le titre en haut à gauche
+  layout = "basic"
+
+[footer]
+  showScrollToTop = true
+
+[homepage]
+  # Affiche les derniers articles sur l'accueil
+  Layout = "recent"
+  # Affiche la "carte" de l'auteur à droite
+  showRecentStats = true
